@@ -17,22 +17,11 @@ tags:
 - Media
 - Links
 - Evangelism
-created: "2018-02-25"
-modified: "2018-02-25"
+created: "2018-03-10"
+modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/reddit/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Reddit
-  description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social
-    networking service and news website where registered community members can submit
-    content, such as text posts or direct links
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
-  humanURL: ""
-  baseURL: https://www.reddit.com//
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/reddit/r-subreddit-wiki-page-get.md
+apis: []
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
