@@ -26,7 +26,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-resource-manager/linkid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-resource-manager/linkid-get.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
