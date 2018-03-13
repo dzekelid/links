@@ -26,7 +26,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-resources-links-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-resource-manager/scope-providers-microsoft-resources-links-get.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
