@@ -12,8 +12,8 @@ tags:
 - Microsoft
 - Links
 - Deployment
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-resource-manager/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -26,7 +26,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-resource-manager/scope-providers-microsoft-resources-links-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-resource-manager/linkid-delete.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
