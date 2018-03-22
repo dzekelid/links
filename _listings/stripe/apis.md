@@ -20,9 +20,9 @@ tags:
 - Change Log
 - Billing
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/stripe/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Stripe
@@ -33,7 +33,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/stripe/accounts-account-login-links-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/account-login-links-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
