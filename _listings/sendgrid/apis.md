@@ -35,7 +35,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-subuser-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-subuser-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
