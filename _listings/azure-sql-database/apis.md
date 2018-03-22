@@ -10,9 +10,9 @@ tags:
 - Stack Network
 - Microsoft
 - Database
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-sql-database/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-sql-database/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure SQL Database API
@@ -23,7 +23,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-replicationlinks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-sql-database/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-sql-servers-servername-databases-databasename-replicationlinks-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/sql-database/
