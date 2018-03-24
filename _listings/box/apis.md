@@ -33,7 +33,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-links-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-links-web-link-id-get.md
 x-common:
 - type: x-base
   url: https://api.box.com/
