@@ -33,7 +33,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/account-login-links-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/accounts-account-login-links-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
