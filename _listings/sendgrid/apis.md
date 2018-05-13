@@ -36,16 +36,13 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-link-id-subuser-post.md
-- name: SendGrid Get Whitelabel Links Default
+- name: SendGrid Delete Whitelabel Links Subuser
   description: |-
-    **This endpoint allows you to retrieve the default link whitelabel.**
+    **This endpoint allows you to disassociate a link whitelabel from a subuser.**
 
-    Default link whitelabel is the actual link whitelabel to be used when sending messages. If there are multiple link whitelabels, the default is determined by the following order:
-    <ul>
-      <li>Validated link whitelabels marked as "default"</li>
-      <li>Legacy link whitelabels (migrated from the whitelabel wizard)</li>
-      <li>Default SendGrid link whitelabel (i.e. 100.ct.sendgrid.net)</li>
-    </ul>
+    Link whitelables can be associated with subusers from the parent account. This functionality allows
+    subusers to send mail using their parent's linke whitelabels. To associate a link whitelabel, the parent account
+    must first create a whitelabel and validate it. The parent may then associate that whitelabel with a subuser via the API or the Subuser Management page in the user interface.
 
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
@@ -56,9 +53,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-default-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-default-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-subuser-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
