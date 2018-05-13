@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Accounts Account Login Links
+  description: Creates a single-use login link for an Express account to access their
+    Stripe dashboard.You may only create login links for Express accounts connected
+    to your platform.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
