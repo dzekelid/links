@@ -36,9 +36,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-link-id-subuser-post.md
-- name: SendGrid Add Whitelabel Links
+- name: SendGrid Get Whitelabel Links Default
   description: |-
-    **This endpoint allows you to create a new link whitelabel.**
+    **This endpoint allows you to retrieve the default link whitelabel.**
+
+    Default link whitelabel is the actual link whitelabel to be used when sending messages. If there are multiple link whitelabels, the default is determined by the following order:
+    <ul>
+      <li>Validated link whitelabels marked as "default"</li>
+      <li>Legacy link whitelabels (migrated from the whitelabel wizard)</li>
+      <li>Default SendGrid link whitelabel (i.e. 100.ct.sendgrid.net)</li>
+    </ul>
 
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
@@ -49,7 +56,9 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-default-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-default-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
