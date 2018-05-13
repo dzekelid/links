@@ -1,11 +1,20 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Get Whitelabel Links Default
+  description: |-
+    **This endpoint allows you to retrieve the default link whitelabel.**
+
+    Default link whitelabel is the actual link whitelabel to be used when sending messages. If there are multiple link whitelabels, the default is determined by the following order:
+    <ul>
+      <li>Validated link whitelabels marked as "default"</li>
+      <li>Legacy link whitelabels (migrated from the whitelabel wizard)</li>
+      <li>Default SendGrid link whitelabel (i.e. 100.ct.sendgrid.net)</li>
+    </ul>
+
+    Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
+
+    For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html).
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
