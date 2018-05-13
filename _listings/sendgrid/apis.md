@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-link-id-subuser-post.md
-- name: SendGrid Delete Whitelabel Links Subuser
+- name: SendGrid Get Whitelabel Links Subuser
   description: |-
-    **This endpoint allows you to disassociate a link whitelabel from a subuser.**
+    **This endpoint allows you to retrieve the associated link whitelabel for a subuser.**
 
     Link whitelables can be associated with subusers from the parent account. This functionality allows
     subusers to send mail using their parent's linke whitelabels. To associate a link whitelabel, the parent account
@@ -53,7 +53,9 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-subuser-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-subuser-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-subuser-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
