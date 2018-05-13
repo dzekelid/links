@@ -29,7 +29,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/dyn/reports-clicks-count-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/dyn/reports-clicks-count-unique-get.md
 x-common:
 - type: x-base
   url: https://api.dynect.net
