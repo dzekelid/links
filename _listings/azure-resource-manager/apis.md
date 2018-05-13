@@ -27,7 +27,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/scope-providers-microsoft-resources-links-get.md
+- name: Azure Resource Manager API Resource Links Delete
+  description: Deletes a resource link with the specified ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
+  baseURL: http:://management.azure.com//
+  tags: Links
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/linkid-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/linkid-delete-postman.md
 x-common:
+- type: x-website
+  url: https://docs.microsoft.com/en-us/rest/api/resources/
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
 include: []
