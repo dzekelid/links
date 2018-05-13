@@ -36,9 +36,13 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-link-id-subuser-post.md
-- name: SendGrid Add Whitelabel Links  Valate
+- name: SendGrid Add Whitelabel Links Link  Subuser
   description: |-
-    **This endpoint allows you to validate a link whitelabel.**
+    **This endpoint allows you to associate a link whitelabel with a subuser account.**
+
+    Link whitelables can be associated with subusers from the parent account. This functionality allows
+    subusers to send mail using their parent's linke whitelabels. To associate a link whitelabel, the parent account
+    must first create a whitelabel and validate it. The parent may then associate that whitelabel with a subuser via the API or the Subuser Management page in the user interface.
 
     Email link whitelabels allow all of the click-tracked links you send in your emails to include the URL of your domain instead of sendgrid.net.
 
@@ -49,7 +53,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-id-validate-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/whitelabel-links-link-id-subuser-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
