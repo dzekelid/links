@@ -34,7 +34,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/accounts-account-login-links-post.md
-- name: Stripe Add Account Login Links
+- name: Stripe Add Accounts Account Login Links
   description: Creates a single-use login link for an Express account to access their
     Stripe dashboard.You may only create login links for Express accounts connected
     to your platform.
@@ -44,7 +44,7 @@ apis:
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/account-login-links-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/accounts-account-login-links-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
