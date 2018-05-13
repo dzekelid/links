@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/scope-providers-microsoft-resources-links-get.md
-- name: Azure Resource Manager API Resource Links Get
-  description: Gets a resource link with the specified ID.
+- name: Azure Resource Manager API Resource Links List At Subscription
+  description: Gets all the linked resources for the subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Links
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/linkid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-resources-links-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/linkid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-resources-links-get-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
