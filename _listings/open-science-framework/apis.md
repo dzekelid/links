@@ -12,145 +12,139 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Links
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Open Science Framework List all view only links
+- name: Open Science Framework
   x-api-slug: open-science-framework
-  description: |-
-    List of view only links on a node.
-    ####Returns
-    Returns a JSON object containing `data` and `links` keys.
-
-    The `data` key contains an array of up to 10 view only links. Each resource in the array is a view only link object.
-
-    The `links` key contains a dictionary of links that can be used for [pagination](#Introduction_pagination).
-
-    ####Permissions
-
-    View only links on a node, public or private, are readable and writeable only by users that are administrators on the node.
-
-    ####Filtering
-
-    You can optionally request that the response only include view only links that match your filters by utilizing the `filter` query parameter, e.g. https://api.osf.io/v2/nodes/ezcuj/view_only_links/?filter[anonymous]=true.
-
-    View Only Links may be filtered based on their `name`, `anonymous` and `date_created` fields. Possible comparison operators include 'gt' (greater than), 'gte'(greater than or equal to), 'lt' (less than) and 'lte' (less than or equal to). The date must be in the format YYYY-MM-DD and the time is optional.
+  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
   image: ""
   humanURL: https://cos.io
-  baseURL: https://test-api.osf.io//v2//nodes/{node_id}/view_only_links/
-  tags: Nodes,Node,View,Only,Links
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-openapi.md
-- name: Open Science Framework Retrieve a view only link
+- name: Open Science Framework
   x-api-slug: open-science-framework
-  description: |-
-    Retrieves the details of a view only link on a node.
-    ####Returns
-    Returns a JSON object with a `data` key containing the representation of the requested view only link, if the request is successful.
-
-    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
-    ####Permissions
-
-    View only links on a node, public or private, are readable and writeable only by users that are administrators on the node.
+  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
   image: ""
   humanURL: https://cos.io
-  baseURL: https://test-api.osf.io//v2//nodes/{node_id}/view_only_links/{link_id}/
-  tags: Nodes,Node,View,Only,Links,Link
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-openapi.md
-- name: Open Science Framework List all view only links
+- name: Open Science Framework
   x-api-slug: open-science-framework
-  description: |-
-    A paginated list of view only links created for this registration.
-    ####Returns
-    Returns a JSON object containing `data` and `links` keys.
-
-    The `data` key contains an array of up to 10 view only links. Each resource in the array is a view only link object.
-
-    The `links` key contains a dictionary of links that can be used for [pagination](#Introduction_pagination).
-
-    ####Permissions
-
-    View only links on a registration, public or private, are readable and writeable only by users that are administrators on the registration.
-
-    ####Filtering
-
-    You can optionally request that the response only include view only links that match your filters by utilizing the `filter` query parameter, e.g. https://api.osf.io/v2/registrations/wu3a4/view_only_links/?filter[anonymous]=true.
-
-    View Only Links may be filtered based on their `name`, `anonymous` and `date_created` fields. Possible comparison operators include 'gt' (greater than), 'gte'(greater than or equal to), 'lt' (less than) and 'lte' (less than or equal to). The date must be in the format YYYY-MM-DD and the time is optional.
+  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
   image: ""
   humanURL: https://cos.io
-  baseURL: https://test-api.osf.io//v2//registrations/{registration_id}/view_only_links/
-  tags: Registrations,Registration,View,Only,Links
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-openapi.md
-- name: Open Science Framework Retrieve a view only link
+- name: Open Science Framework
   x-api-slug: open-science-framework
-  description: |-
-    Retrieves the details of a view only link created from this registration.
-    ####Returns
-    Returns a JSON object with a `data` key containing the representation of the requested view only link, if the request is successful.
-
-    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
-    ####Permissions
-
-    View only links on a registration, public or private, are readable and writeable only by users that are administrators on the registration.
+  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
   image: ""
   humanURL: https://cos.io
-  baseURL: https://test-api.osf.io//v2//registrations/{registration_id}/view_only_links/{link_id}/
-  tags: Registrations,Registration,View,Only,Links,Link
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-linkslink-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-linkslink-id-get-openapi.md
-- name: Open Science Framework Retrieve a view only link
+- name: Open Science Framework
   x-api-slug: open-science-framework
-  description: |-
-    Retrieves details about a specific view only link.
-    ####Permissions
-    Only project administrators may retrieve the details of a view only link. Attempting to retrieve a view only link without appropriate permissions will result in a 403 Forbidden response.
-    #### Returns
-    Returns a JSON object with a `data` key containing the representation of the requested view only link, if the request is successful.
-    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
+  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
   image: ""
   humanURL: https://cos.io
-  baseURL: https://test-api.osf.io//v2//view_only_links/{link_id}/
-  tags: View,Only,Links,Link
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-linkslink-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-linkslink-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/view-only-linkslink-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/view-only-linkslink-id-get-openapi.md
-- name: Open Science Framework List all nodes
+- name: Open Science Framework
   x-api-slug: open-science-framework
-  description: |-
-    The list of nodes which this view only link gives read-only access to.
-    #### Permissions
-    Only project administrators may retrieve the nodes of a view only link. Attempting to retrieve a view only link without appropriate permissions will result in a 403 Forbidden response.
-    #### Returns
-    Returns a JSON object containing `data` and `links` keys.
-    The `data` key contains an array of up to 10 nodes. Each resource in the array is a separate node object and contains the full representation of the node, meaning additional requests to a node's detail view are not necessary.
-
-    The `links` key contains a dictionary of links that can be used for [pagination](#Introduction_pagination).
-
-    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
+  description: osf-provides-free-and-open-source-project-management-support-for-researchers-across-the-entire-research-lifecycle--as-a-collaboration-tool-osf-helps-researchers-work-on-projects-privately-with-a-limited-number-of-collaborators-and-make-parts-of-their-projects-public-or-make-all-the-project-publicly-accessible-for-broader-dissemination--as-a-workflow-system-osf-enables-connections-to-the-many-services-researchers-already-use-to-streamline-their-process-and-increase-efficiency--as-a-flexible-repository-it-can-store-and-archive-research-data-protocols-and-materials--
   image: ""
   humanURL: https://cos.io
-  baseURL: https://test-api.osf.io//v2//view_only_links/{link_id}/nodes/
-  tags: View,Only,Links,Link,Nodes
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-links-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/nodesnode-idview-only-linkslink-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-links-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-linkslink-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/registrationsregistration-idview-only-linkslink-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/view-only-linkslink-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/view-only-linkslink-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/view-only-linkslink-idnodes-get-postman.md
   - type: x-openapi-spec
@@ -175,6 +169,10 @@ apis:
 x-common:
 - type: x-website
   url: https://cos.io
+- type: x-api-gallery
+  url: http://open.fintech.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://open.science.framework.stack.network
 - type: x-github
   url: https://github.com/OSFramework
 - type: x-twitter

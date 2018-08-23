@@ -1,31 +1,45 @@
 ---
 name: Pinboard
-description: Pinboard.In is a social bookmarking site that offers an easy import/
-  export in del.icio.us format,  Nightly database backups to S3,  Cached copies of
-  all  bookmarks,  a ???to read??? status for later viewing, private bookmarks and
-  private tags, and simplified bulk editing.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pinboard-icon.png
+x-slug: pinboard
+description: Pinboard is a bookmarking website for introverted people in a hurry.
+  The focus of the site is less on socializing, and more on speed and utility. Pinboard
+  tries to offer useful features without getting in your way. My highest priority
+  is keeping your data safe over the long term.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- My API Stack
-- Links
-- Indie EdTech Data Jam
-- Bookmarks
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/pinboard/apis.yaml
+x-alexaRank: "45688"
+tags: Links
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/pinboard/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Pinboard
+  x-api-slug: pinboard
+  description: Pinboard is a bookmarking website for introverted people in a hurry.
+    The focus of the site is less on socializing, and more on speed and utility. Pinboard
+    tries to offer useful features without getting in your way. My highest priority
+    is keeping your data safe over the long term.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg
+  humanURL: http://pinboard.in
+  baseURL: https://api.pinboard.in//v1
+  tags: Links
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/pinboard/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://payrun.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pinboard.stack.network
 - type: x-base
   url: https://api.pinboard.in
 - type: x-blog
   url: http://www.pinboard.in/blog/
 - type: x-blog-rss
   url: https://blog.pinboard.in/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/pinboard
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/pinboard
 - type: x-developer
@@ -42,6 +56,8 @@ x-common:
   url: https://www.pinboard.in/tos/
 - type: x-twitter
   url: https://twitter.com/pinboard
+- type: x-website
+  url: http://pinboard.in
 - type: x-website
   url: http://www.pinboard.in
 include: []

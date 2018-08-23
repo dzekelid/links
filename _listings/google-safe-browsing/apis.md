@@ -1,5 +1,6 @@
 ---
 name: Google Safe Browsing
+x-slug: google-safe-browsing
 description: The Safe Browsing APIs (v4) let your client applications check URLs against
   Googles constantly updated lists of unsafe web resources. Examples of unsafe web
   resources are social engineering sites (phishing and deceptive sites) and sites
@@ -7,19 +8,32 @@ description: The Safe Browsing APIs (v4) let your client applications check URLs
   considered unsafe.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SafeBrowsing_Icon.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Security
-- Privacy
-- Links
-- Google APIs
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/google-safe-browsing/apis.yaml
+x-alexaRank: "0"
+tags: Links
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-safe-browsing/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Safe Browsing API
+  x-api-slug: google-safe-browsing-api
+  description: The Safe Browsing APIs (v4) let your client applications check URLs
+    against Googles constantly updated lists of unsafe web resources. Examples of
+    unsafe web resources are social engineering sites (phishing and deceptive sites)
+    and sites that host malware or unwanted software. Any URL found on a Safe Browsing
+    list is considered unsafe.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SafeBrowsing_Icon.png
+  humanURL: https://developers.google.com/safe-browsing/
+  baseURL: ://safebrowsing.googleapis.com//
+  tags: Links
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-safe-browsing/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.qpx.express.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.safe.browsing.stack.network
 - type: x-documentation
   url: https://developers.google.com/safe-browsing/v4/
 - type: x-forum

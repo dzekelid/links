@@ -1,26 +1,30 @@
 ---
 name: AddThis
-description: AddThis, the new brand name for Clearspring Technologies, is the leader
-  in socially connecting publishers, services and advertisers to audiences on the
-  open web. Reaching more than 1.3 billion unique users monthly, AddThisrsquo; social
-  tools and analytics are used on more than 14 million unique domains to distribute
-  and track digital content such as web pages, widgets, and videos to social networks,
-  bookmarking sites, blogs, and more. To learn more visit AddThis.com
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/addthis-logo.jpg
+x-slug: addthis
+description: AddThis website tools include share buttons, targeting tools and content
+  recommendations help you get more likes, shares and followers and keep them coming
+  back.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1814-addthis.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Social Bookmarking
-- Sharing
-- Links
-- Link
-- Embeddable
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/addthis/apis.yaml
+x-alexaRank: "585"
+tags: Links
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/addthis/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AddThis
+  x-api-slug: addthis
+  description: AddThis website tools include share buttons, targeting tools and content
+    recommendations help you get more likes, shares and followers and keep them coming
+    back.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1814-addthis.jpg
+  humanURL: http://www.addthis.com/
+  baseURL: https:///
+  tags: Links
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/addthis/openapi.md
 x-common:
 - type: x-base
   url: https://api.addthis.com/
@@ -28,6 +32,8 @@ x-common:
   url: http://www.addthis.com/blog/
 - type: x-blog-rss
   url: http://www.addthis.com/blog/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/addthis
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/addthis
 - type: x-developer

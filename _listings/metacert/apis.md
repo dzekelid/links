@@ -1,25 +1,33 @@
 ---
 name: MetaCert
-description: With headquarters in San Francisco, MetaCert is the first and only company
-  to provide a security solution that protects consumers from mobile malware and phishing
-  attacks on the app-layer. MetaCert is also the first and only company to provide
-  a Security API to help developers stop pornography from appearing inside their apps.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/meta-cert-logo.png
+x-slug: metacert
+description: Data loss detection and prevention for companies that use Team Collaboration
+  services. Protection against malicious and unwanted URLs.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18922-metacert.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Security
-- Security
-- Links
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/links/master/_listings/metacert/apis.yaml
+x-alexaRank: "136997"
+tags: Links
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/metacert/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: MetaCert
+  x-api-slug: metacert
+  description: Data loss detection and prevention for companies that use Team Collaboration
+    services. Protection against malicious and unwanted URLs.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18922-metacert.jpg
+  humanURL: https://metacert.com/
+  baseURL: https:///
+  tags: Links
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/metacert/openapi.md
 x-common:
 - type: x-blog
   url: https://metacert.com/blog/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/metacert
 - type: x-github
   url: https://github.com/metacert
 - type: x-twitter
