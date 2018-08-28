@@ -11,26 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/readability/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Readability
-  x-api-slug: readability
-  description: Readability is a free/pay reading platform that delivers a great reading
-    experience and provides a model where your reading activity can directly compensate
-    publishers and writers. Readability started off as a simple, Javascript-based
-    reading tool that turned any web page into a customizable reading view. It was
-    released by Arc90 (as an Arc90 Lab experiment), a New York City based design and
-    technology shop, back in early 2009.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/readability.jpg
-  humanURL: http://www.readability.com
-  baseURL: https:///
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/readability/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://www.readability.com/api/r

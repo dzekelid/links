@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1698-insta
 x-kinRank: "7"
 x-alexaRank: "14036"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/instapaper/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Instapaper
-  x-api-slug: instapaper
-  description: A simple tool for saving web pages to read later on your iPhone, iPad,
-    Android, computer, or Kindle.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1698-instapaper.jpg
-  humanURL: http://www.instapaper.com
-  baseURL: https:///
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/instapaper/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://www.instapaper.com/api/

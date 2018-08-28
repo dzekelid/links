@@ -35,6 +35,26 @@ paths:
       - Features
       - Links
       - Percentiles
+    parameters:
+      summary: Parameters Analyses Username Project Slug Analysis Slug Features Links
+        Percentiles
+      description: Parameters analyses username project slug analysis slug features
+        links percentiles.
+      operationId: parametersAnalysesUsernameProjectSlugAnalysisSlugFeaturesLinksPercentiles
+      x-api-path-slug: analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analyses
+      - Username
+      - Project
+      - Slug
+      - Analysis
+      - Slug
+      - Features
+      - Links
+      - Percentiles
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

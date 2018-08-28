@@ -7,25 +7,15 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Confluence Cloud API
-  x-api-slug: confluence-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Get remote issue links
+  x-api-slug: api2issueissueidorkeyremotelink-get
+  description: Returns the remote issue links for the issue. This may be links to
+    other Jira instances, web applications or web pages.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -37,9 +27,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Get remote version links
+  x-api-slug: api2versionremotelink-get
+  description: Returns the remote version links for a given global ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -47,17 +37,14 @@ apis:
     Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
     API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionremotelink-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionremotelink-get-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Get remote version links by version id
+  x-api-slug: api2versionversionidremotelink-get
+  description: Returns the remote version links associated with the given version
+    ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -65,21 +52,13 @@ apis:
     Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
     API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionremotelink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionremotelink-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-get-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: jira-cloud-rest-api-documentation
+- name: Jira Cloud REST API - Delete remote version links by version id
+  x-api-slug: api2versionversionidremotelink-delete
+  description: Delete all remote version links for a given version ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
@@ -87,55 +66,1096 @@ apis:
     Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
     API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionremotelink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionremotelink-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-delete-openapi.md
-- name: Jira Cloud API
-  x-api-slug: jira-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
+- name: Jira Cloud REST API - Create or update remote issue link
+  x-api-slug: api2issueissueidorkeyremotelink-post
+  description: Creates or updates a remote issue link from a JSON representation.
+    If a `globalId` is provided and a remote issue link exists with that globalId,
+    the remote issue link is updated. Otherwise, the remote issue link is created.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
-  tags: Links
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/openapi.md
-- name: Jira Service Desk API
-  x-api-slug: jira-service-desk-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-post-openapi.md
+- name: Jira Cloud REST API - Delete remote issue link by global id
+  x-api-slug: api2issueissueidorkeyremotelink-delete
+  description: Deletes the issue's remote link with the given global ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
-  tags: Links
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/openapi.md
-- name: Jira Software Cloud API
-  x-api-slug: jira-software-cloud-api
-  description: Millions of users globally rely on Atlassian products every day for
-    improving software development, project management, collaboration, and code quality.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-delete-openapi.md
+- name: Jira Cloud REST API - Get remote issue link by id
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-get
+  description: Returns the remote issue link by the given ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
   humanURL: http://atlassian.com/
   baseURL: https:////
-  tags: Links
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-get-openapi.md
+- name: Jira Cloud REST API - Update remote issue link
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-put
+  description: Updates a remote issue link from a JSON representation. Sets all fields
+    without values provided to null.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-put-openapi.md
+- name: Jira Cloud REST API - Delete remote issue link by id
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-delete
+  description: Deletes the issue's remote link with the given ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-delete-openapi.md
+- name: Jira Cloud REST API - Link issues
+  x-api-slug: api2issuelink-post
+  description: Creates an issue link between two issues. The user requires the link
+    issue permission for the issue which will be linked to another issue. The specified
+    link type in the request is used to create the link and will create a link from
+    the first issue to the second issue using the outward description. It also create
+    a link from the second issue to the first issue using the inward description of
+    the issue link type. It will add the supplied comment to the first issue. The
+    comment can have a restriction who can view it. If group is specified, only users
+    of this group can view this comment, if roleLevel is specified only users who
+    have the specified role can view this comment. The user who creates the issue
+    link needs to belong to the specified group or have the specified role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-openapi.md
+- name: Jira Cloud REST API - Get issue link
+  x-api-slug: api2issuelinklinkid-get
+  description: Returns an issue link with the specified id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-openapi.md
+- name: Jira Cloud REST API - Delete issue link
+  x-api-slug: api2issuelinklinkid-delete
+  description: Deletes an issue link with the specified id. To be able to delete an
+    issue link you must be able to view both issues and must have the link issue permission
+    for at least one of the issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-openapi.md
+- name: Jira Cloud REST API - Get issue link types
+  x-api-slug: api2issuelinktype-get
+  description: Returns a list of available issue link types, if issue linking is enabled.
+    Each issue link type has an id, a name and a label for the outward and inward
+    link relationship.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-openapi.md
+- name: Jira Cloud REST API - Create issue link type
+  x-api-slug: api2issuelinktype-post
+  description: Create a new issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-openapi.md
+- name: Jira Cloud REST API - Get issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-get
+  description: Returns for a given issue link type id all information about this issue
+    link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-openapi.md
+- name: Jira Cloud REST API - Update issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-put
+  description: Update the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-openapi.md
+- name: Jira Cloud REST API - Delete issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-delete
+  description: Delete the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link
+  x-api-slug: api2versionversionidremotelink-post
+  description: Create a remote version link via POST. The link's global ID will be
+    taken from the JSON payload if provided; otherwise, it will be generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-openapi.md
+- name: Jira Cloud REST API - Get remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-get
+  description: A REST sub-resource representing a remote version link
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link with global id
+  x-api-slug: api2versionversionidremotelinkglobalid-post
+  description: Create a remote version link via POST using the provided global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-openapi.md
+- name: Jira Cloud REST API - Delete remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-delete
+  description: Delete a specific remote version link with the given version ID and
+    global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-openapi.md
+- name: Jira Cloud REST API - Link issues
+  x-api-slug: api2issuelink-post
+  description: Creates an issue link between two issues. The user requires the link
+    issue permission for the issue which will be linked to another issue. The specified
+    link type in the request is used to create the link and will create a link from
+    the first issue to the second issue using the outward description. It also create
+    a link from the second issue to the first issue using the inward description of
+    the issue link type. It will add the supplied comment to the first issue. The
+    comment can have a restriction who can view it. If group is specified, only users
+    of this group can view this comment, if roleLevel is specified only users who
+    have the specified role can view this comment. The user who creates the issue
+    link needs to belong to the specified group or have the specified role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-openapi.md
+- name: Jira Cloud REST API - Get issue link
+  x-api-slug: api2issuelinklinkid-get
+  description: Returns an issue link with the specified id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-openapi.md
+- name: Jira Cloud REST API - Delete issue link
+  x-api-slug: api2issuelinklinkid-delete
+  description: Deletes an issue link with the specified id. To be able to delete an
+    issue link you must be able to view both issues and must have the link issue permission
+    for at least one of the issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-openapi.md
+- name: Jira Cloud REST API - Get issue link types
+  x-api-slug: api2issuelinktype-get
+  description: Returns a list of available issue link types, if issue linking is enabled.
+    Each issue link type has an id, a name and a label for the outward and inward
+    link relationship.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-openapi.md
+- name: Jira Cloud REST API - Create issue link type
+  x-api-slug: api2issuelinktype-post
+  description: Create a new issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-openapi.md
+- name: Jira Cloud REST API - Get issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-get
+  description: Returns for a given issue link type id all information about this issue
+    link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-openapi.md
+- name: Jira Cloud REST API - Update issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-put
+  description: Update the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-openapi.md
+- name: Jira Cloud REST API - Delete issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-delete
+  description: Delete the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-openapi.md
+- name: Jira Cloud REST API - Delete remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-delete
+  description: Delete a specific remote version link with the given version ID and
+    global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-openapi.md
+- name: Jira Cloud REST API - Delete remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-delete
+  description: Delete a specific remote version link with the given version ID and
+    global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-openapi.md
+- name: Jira Cloud REST API - Delete remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-delete
+  description: Delete a specific remote version link with the given version ID and
+    global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-openapi.md
+- name: Jira Cloud REST API - Delete remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-delete
+  description: Delete a specific remote version link with the given version ID and
+    global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-openapi.md
+- name: Jira Cloud REST API - Delete remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-delete
+  description: Delete a specific remote version link with the given version ID and
+    global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-delete-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link with global id
+  x-api-slug: api2versionversionidremotelinkglobalid-post
+  description: Create a remote version link via POST using the provided global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link with global id
+  x-api-slug: api2versionversionidremotelinkglobalid-post
+  description: Create a remote version link via POST using the provided global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link with global id
+  x-api-slug: api2versionversionidremotelinkglobalid-post
+  description: Create a remote version link via POST using the provided global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link with global id
+  x-api-slug: api2versionversionidremotelinkglobalid-post
+  description: Create a remote version link via POST using the provided global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link with global id
+  x-api-slug: api2versionversionidremotelinkglobalid-post
+  description: Create a remote version link via POST using the provided global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link with global id
+  x-api-slug: api2versionversionidremotelinkglobalid-post
+  description: Create a remote version link via POST using the provided global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-post-openapi.md
+- name: Jira Cloud REST API - Get remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-get
+  description: A REST sub-resource representing a remote version link
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-openapi.md
+- name: Jira Cloud REST API - Get remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-get
+  description: A REST sub-resource representing a remote version link
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-openapi.md
+- name: Jira Cloud REST API - Get remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-get
+  description: A REST sub-resource representing a remote version link
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-openapi.md
+- name: Jira Cloud REST API - Get remote version link
+  x-api-slug: api2versionversionidremotelinkglobalid-get
+  description: A REST sub-resource representing a remote version link
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelinkglobalid-get-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link
+  x-api-slug: api2versionversionidremotelink-post
+  description: Create a remote version link via POST. The link's global ID will be
+    taken from the JSON payload if provided; otherwise, it will be generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link
+  x-api-slug: api2versionversionidremotelink-post
+  description: Create a remote version link via POST. The link's global ID will be
+    taken from the JSON payload if provided; otherwise, it will be generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link
+  x-api-slug: api2versionversionidremotelink-post
+  description: Create a remote version link via POST. The link's global ID will be
+    taken from the JSON payload if provided; otherwise, it will be generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link
+  x-api-slug: api2versionversionidremotelink-post
+  description: Create a remote version link via POST. The link's global ID will be
+    taken from the JSON payload if provided; otherwise, it will be generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link
+  x-api-slug: api2versionversionidremotelink-post
+  description: Create a remote version link via POST. The link's global ID will be
+    taken from the JSON payload if provided; otherwise, it will be generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote version link
+  x-api-slug: api2versionversionidremotelink-post
+  description: Create a remote version link via POST. The link's global ID will be
+    taken from the JSON payload if provided; otherwise, it will be generated.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2versionversionidremotelink-post-openapi.md
+- name: Jira Cloud REST API - Delete issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-delete
+  description: Delete the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-openapi.md
+- name: Jira Cloud REST API - Delete issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-delete
+  description: Delete the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-delete-openapi.md
+- name: Jira Cloud REST API - Update issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-put
+  description: Update the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-openapi.md
+- name: Jira Cloud REST API - Update issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-put
+  description: Update the specified issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-put-openapi.md
+- name: Jira Cloud REST API - Get issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-get
+  description: Returns for a given issue link type id all information about this issue
+    link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-openapi.md
+- name: Jira Cloud REST API - Get issue link type
+  x-api-slug: api2issuelinktypeissuelinktypeid-get
+  description: Returns for a given issue link type id all information about this issue
+    link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktypeissuelinktypeid-get-openapi.md
+- name: Jira Cloud REST API - Create issue link type
+  x-api-slug: api2issuelinktype-post
+  description: Create a new issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-openapi.md
+- name: Jira Cloud REST API - Create issue link type
+  x-api-slug: api2issuelinktype-post
+  description: Create a new issue link type.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-post-openapi.md
+- name: Jira Cloud REST API - Get issue link types
+  x-api-slug: api2issuelinktype-get
+  description: Returns a list of available issue link types, if issue linking is enabled.
+    Each issue link type has an id, a name and a label for the outward and inward
+    link relationship.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-openapi.md
+- name: Jira Cloud REST API - Get issue link types
+  x-api-slug: api2issuelinktype-get
+  description: Returns a list of available issue link types, if issue linking is enabled.
+    Each issue link type has an id, a name and a label for the outward and inward
+    link relationship.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinktype-get-openapi.md
+- name: Jira Cloud REST API - Delete issue link
+  x-api-slug: api2issuelinklinkid-delete
+  description: Deletes an issue link with the specified id. To be able to delete an
+    issue link you must be able to view both issues and must have the link issue permission
+    for at least one of the issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-openapi.md
+- name: Jira Cloud REST API - Delete issue link
+  x-api-slug: api2issuelinklinkid-delete
+  description: Deletes an issue link with the specified id. To be able to delete an
+    issue link you must be able to view both issues and must have the link issue permission
+    for at least one of the issues.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-delete-openapi.md
+- name: Jira Cloud REST API - Get issue link
+  x-api-slug: api2issuelinklinkid-get
+  description: Returns an issue link with the specified id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-openapi.md
+- name: Jira Cloud REST API - Get issue link
+  x-api-slug: api2issuelinklinkid-get
+  description: Returns an issue link with the specified id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelinklinkid-get-openapi.md
+- name: Jira Cloud REST API - Link issues
+  x-api-slug: api2issuelink-post
+  description: Creates an issue link between two issues. The user requires the link
+    issue permission for the issue which will be linked to another issue. The specified
+    link type in the request is used to create the link and will create a link from
+    the first issue to the second issue using the outward description. It also create
+    a link from the second issue to the first issue using the inward description of
+    the issue link type. It will add the supplied comment to the first issue. The
+    comment can have a restriction who can view it. If group is specified, only users
+    of this group can view this comment, if roleLevel is specified only users who
+    have the specified role can view this comment. The user who creates the issue
+    link needs to belong to the specified group or have the specified role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-openapi.md
+- name: Jira Cloud REST API - Link issues
+  x-api-slug: api2issuelink-post
+  description: Creates an issue link between two issues. The user requires the link
+    issue permission for the issue which will be linked to another issue. The specified
+    link type in the request is used to create the link and will create a link from
+    the first issue to the second issue using the outward description. It also create
+    a link from the second issue to the first issue using the inward description of
+    the issue link type. It will add the supplied comment to the first issue. The
+    comment can have a restriction who can view it. If group is specified, only users
+    of this group can view this comment, if roleLevel is specified only users who
+    have the specified role can view this comment. The user who creates the issue
+    link needs to belong to the specified group or have the specified role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issuelink-post-openapi.md
+- name: Jira Cloud REST API - Delete remote issue link by id
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-delete
+  description: Deletes the issue's remote link with the given ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-delete-openapi.md
+- name: Jira Cloud REST API - Delete remote issue link by id
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-delete
+  description: Deletes the issue's remote link with the given ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-delete-openapi.md
+- name: Jira Cloud REST API - Update remote issue link
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-put
+  description: Updates a remote issue link from a JSON representation. Sets all fields
+    without values provided to null.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-put-openapi.md
+- name: Jira Cloud REST API - Update remote issue link
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-put
+  description: Updates a remote issue link from a JSON representation. Sets all fields
+    without values provided to null.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-put-openapi.md
+- name: Jira Cloud REST API - Get remote issue link by id
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-get
+  description: Returns the remote issue link by the given ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-get-openapi.md
+- name: Jira Cloud REST API - Get remote issue link by id
+  x-api-slug: api2issueissueidorkeyremotelinklinkid-get
+  description: Returns the remote issue link by the given ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelinklinkid-get-openapi.md
+- name: Jira Cloud REST API - Delete remote issue link by global id
+  x-api-slug: api2issueissueidorkeyremotelink-delete
+  description: Deletes the issue's remote link with the given global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-delete-openapi.md
+- name: Jira Cloud REST API - Delete remote issue link by global id
+  x-api-slug: api2issueissueidorkeyremotelink-delete
+  description: Deletes the issue's remote link with the given global ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-delete-openapi.md
+- name: Jira Cloud REST API - Create or update remote issue link
+  x-api-slug: api2issueissueidorkeyremotelink-post
+  description: Creates or updates a remote issue link from a JSON representation.
+    If a `globalId` is provided and a remote issue link exists with that globalId,
+    the remote issue link is updated. Otherwise, the remote issue link is created.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-post-openapi.md
+- name: Jira Cloud REST API - Create or update remote issue link
+  x-api-slug: api2issueissueidorkeyremotelink-post
+  description: Creates or updates a remote issue link from a JSON representation.
+    If a `globalId` is provided and a remote issue link exists with that globalId,
+    the remote issue link is updated. Otherwise, the remote issue link is created.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/api2issueissueidorkeyremotelink-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

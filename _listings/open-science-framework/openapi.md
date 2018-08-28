@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Open Science Framework
 x-complete: 1
@@ -206,4 +205,61 @@ paths:
       - Links
       - Link
       - Nodes
----
+  /nodes/{node_id}/linked_nodes/:
+    get:
+      summary: List all linked nodes
+      description: |-
+        List of all nodes linked to the given node.
+        ####Returns
+        Returns a JSON object containing `data` and `links` keys.
+
+        The `data` key contains an array of up to 10 nodes. Each resource in the array is a separate node object.
+
+        The `links` key contains a dictionary of links that can be used for [pagination](#Introduction_pagination).
+        ####Filtering
+        You can optionally request that the response only include nodes that match your filters by utilizing the `filter` query parameter, e.g. https://api.osf.io/v2/nodes/?filter[title]=reproducibility.
+
+        Nodes may be filtered by their `title`, `category`, `description`, `public`, `registration`, or `tags`. `title`, `description`, and `category` are string fields and will be filteres using simple substring matching. `public`, `registration` are boolean and can be filtered using truthy values, such as `true`, `false`, `0`, `1`. `tags` is an array of simple strings.
+      operationId: nodes_linked_nodes_list
+      x-api-path-slug: nodesnode-idlinked-nodes-get
+      parameters:
+      - in: path
+        name: node_id
+        description: The unique identifier of the node
+      responses:
+        200:
+          description: OK
+      tags:
+      - Nodes
+      - Node
+      - Linked
+      - Nodes
+  /registrations/{registration_id}/linked_nodes/:
+    get:
+      summary: List all linked nodes
+      description: |-
+        List of all nodes linked to the registration.
+        ####Returns
+        Returns a JSON object containing `data` and `links` keys.
+
+        The `data` key contains an array of up to 10 nodes. Each resource in the array is a separate node object.
+
+        The `links` key contains a dictionary of links that can be used for [pagination](#Introduction_pagination).
+        ####Filtering
+        You can optionally request that the response only include nodes that match your filters by utilizing the `filter` query parameter, e.g. https://api.osf.io/v2/registrations/wucr8/linked_nodes/?filter[title]=reproducibility/?filter[title]=reproducibility.
+
+        Nodes may be filtered by their `title`, `category`, `description`, `public`, `registration`, or `tags`. `title`, `description`, and `category` are string fields and will be filteres using simple substring matching. `public`, `registration` are boolean and can be filtered using truthy values, such as `true`, `false`, `0`, `1`. `tags` is an array of simple strings.
+      operationId: registrations_linked_nodes_list
+      x-api-path-slug: registrationsregistration-idlinked-nodes-get
+      parameters:
+      - in: path
+        name: registration_id
+        description: The unique identifier of the registration
+      responses:
+        200:
+          description: OK
+      tags:
+      - Registrations
+      - Registration
+      - Linked
+      - Nodes

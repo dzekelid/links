@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,20 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /courses/{course_id}/outcome_group_links:
+    get:
+      summary: Get all outcome links for context
+      description: Get all outcome links for context.
+      operationId: get-all-outcome-links-for-context
+      x-api-path-slug: coursescourse-idoutcome-group-links-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Outcome
+      - Group
+      - Links

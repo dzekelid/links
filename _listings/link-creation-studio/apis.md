@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/link-creation-studio/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Link Creation Studio
-  x-api-slug: link-creation-studio
-  description: Using Link Technology integrated into the print production flow, unique
-    IDs are applied to the product during the printing process. These unique marks
-    provide valuable data that can be used in many ways, including launching experiences
-    catered to specific consumers when scanned with our mobile app.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/link-creation-studio.png
-  humanURL: https://www.linkcreationstudio.com
-  baseURL: https:///
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/link-creation-studio/openapi.md
+apis: []
 x-common:
 - type: x-authentication
   url: https://www.linkcreationstudio.com/api/doc/auth/

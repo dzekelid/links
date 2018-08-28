@@ -9,14 +9,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-boti
 x-kinRank: "7"
 x-alexaRank: "274018"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Botify
-  x-api-slug: botify
-  description: botify-saas-api
+- name: Botify - Get Analyses Username Project Slug Analysis Slug Features Links Percentiles
+  x-api-slug: analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get
+  description: Get analyses username project slug analysis slug features links percentiles.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
   humanURL: http://www.botify.com
   baseURL: https://api.botify.com//v1
@@ -27,36 +27,77 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-openapi.md
-- name: Botify
-  x-api-slug: botify
-  description: botify-saas-api
+- name: Botify - Parameters Analyses Username Project Slug Analysis Slug Features
+    Links Percentiles
+  x-api-slug: analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters
+  description: Parameters analyses username project slug analysis slug features links
+    percentiles.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
   humanURL: http://www.botify.com
   baseURL: https://api.botify.com//v1
   tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
     Provider, Profiles, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters-openapi.md
-- name: Botify
-  x-api-slug: botify
-  description: We are passionate about SEO. Botify offers unparalleled insights into
-    your websites SEO through crawl data and log analysis.    Optimize your website
-    and see the organic traffic results youve been seeking. Founded in 2012, Botify
-    is a SaaS SEO platfo...
+- name: Botify - Get Analyses Username Project Slug Analysis Slug Features Links Percentiles
+  x-api-slug: analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get
+  description: Get analyses username project slug analysis slug features links percentiles.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
   humanURL: http://www.botify.com
   baseURL: https://api.botify.com//v1
-  tags: Links
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-openapi.md
+- name: Botify - Parameters Analyses Username Project Slug Analysis Slug Features
+    Links Percentiles
+  x-api-slug: analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters
+  description: Parameters analyses username project slug analysis slug features links
+    percentiles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters-openapi.md
+- name: Botify - Get Analyses Username Project Slug Analysis Slug Features Links Percentiles
+  x-api-slug: analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get
+  description: Get analyses username project slug analysis slug features links percentiles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-get-openapi.md
+- name: Botify - Parameters Analyses Username Project Slug Analysis Slug Features
+    Links Percentiles
+  x-api-slug: analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters
+  description: Parameters analyses username project slug analysis slug features links
+    percentiles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/analysesusernameproject-sluganalysis-slugfeatureslinkspercentiles-parameters-openapi.md
 x-common:
 - type: x-website
   url: http://www.botify.com

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: PayRun
 x-complete: 1
@@ -44,4 +43,61 @@ paths:
       - Commentariesthe
       - Specified
       - Employee
----
+  /Schemas/Link.xsd:
+    get:
+      summary: Get the Link schema
+      description: Returns the Link schema object
+      operationId: GetLinkSchema
+      x-api-path-slug: schemaslink-xsd-get
+      parameters:
+      - in: header
+        name: Api-Version
+        description: The version of the api to target
+      - in: header
+        name: Authorization
+        description: The OAuth 1 authorization header
+      responses:
+        200:
+          description: OK
+      tags:
+      - Link
+      - Schema
+  /Templates/link:
+    get:
+      summary: Gets the link template
+      description: Return the link data object template
+      operationId: GetLinkTemplate
+      x-api-path-slug: templateslink-get
+      parameters:
+      - in: header
+        name: Api-Version
+        description: The version of the api to target
+      - in: header
+        name: Authorization
+        description: The OAuth 1 authorization header
+      responses:
+        200:
+          description: OK
+      tags:
+      - Link
+      - Template
+  /Templates/linkcollection:
+    get:
+      summary: Gets the link collection template
+      description: Return the link collection data object template
+      operationId: GetLinkCollectionTemplate
+      x-api-path-slug: templateslinkcollection-get
+      parameters:
+      - in: header
+        name: Api-Version
+        description: The version of the api to target
+      - in: header
+        name: Authorization
+        description: The OAuth 1 authorization header
+      responses:
+        200:
+          description: OK
+      tags:
+      - Link
+      - Collection
+      - Template

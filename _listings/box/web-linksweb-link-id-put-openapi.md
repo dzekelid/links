@@ -78,6 +78,23 @@ paths:
       - Links
       - Web
       - Link
+    delete:
+      summary: Delete Web Link
+      description: Deletes a web link and moves it to the trash
+      operationId: deleteWebLink
+      x-api-path-slug: web-linksweb-link-id-delete
+      parameters:
+      - in: path
+        name: WEB_LINK_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Web
+      - Links
+      - Web
+      - Link
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

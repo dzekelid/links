@@ -9,38 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-search-console/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Search Console API
-  x-api-slug: google-search-console-api
-  description: Query search analytics, list your verified sites, manage your sitemaps,
-    and view crawl errors for your site.The Search Console API provides programmatic
-    access to most of the functionality ofGoogle Search Console. You can use the API
-    to view, add, or remove properties and sitemaps, and run advanced queries for
-    Google Search results data for the properties that you manage in Search Console.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
-  humanURL: https://developers.google.com/webmaster-tools/
-  baseURL: ://www.googleapis.com//webmasters/v3
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-search-console/openapi.md
-- name: Google URL Testing Tools API
-  x-api-slug: google-url-testing-tools-api
-  description: The Search Console URL Testing Tools API enables you to run various
-    performance and validation checks against a single web page. These tests run as
-    a non-logged-in user, with permissions of the Googlebot crawler; this means that
-    if your page isrobotedto prevent access by Googlebot, these tests will not work.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
-  humanURL: https://developers.google.com/webmaster-tools/
-  baseURL: ://searchconsole.googleapis.com//
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-search-console/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://google.safe.browsing.api.gallery.streamdata.io

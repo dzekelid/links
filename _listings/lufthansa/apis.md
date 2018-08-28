@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-p
 x-kinRank: "7"
 x-alexaRank: "3886"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/apis.md
 specificationVersion: "0.14"
 apis:
-- name: LH Partner
-  x-api-slug: lh-partner
-  description: ""
+- name: LH Partner - Deep Links
+  x-api-slug: offersfaresdeeplink-get
+  description: Returns valid deep links for the provided input parameters
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
   humanURL: http://lufthansa.com
   baseURL: https://api.lufthansa.com//v1
@@ -24,64 +24,31 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplink-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplink-get-openapi.md
-- name: LH Partner
-  x-api-slug: lh-partner
-  description: ""
+- name: LH Partner - LH Deep Links - FFP
+  x-api-slug: offersfaresdeeplinkffp-get
+  description: Returns valid LH deep links (FFP - links to flight selection screen
+    on LH.COM)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
   humanURL: http://lufthansa.com
   baseURL: https://api.lufthansa.com//v1
   tags: Airlines, API Provider, Profiles, General Data, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplink-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplinkffp-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplinkffp-get-openapi.md
-- name: LH Partner
-  x-api-slug: lh-partner
-  description: ""
+- name: LH Partner - LH Deep Links - ITCO
+  x-api-slug: offersfaresdeeplinkitco-get
+  description: Returns valid LH deep links (ITCO - links to shopping cart on LH.COM)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
   humanURL: http://lufthansa.com
   baseURL: https://api.lufthansa.com//v1
   tags: Airlines, API Provider, Profiles, General Data, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplink-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplink-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplinkffp-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplinkffp-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplinkitco-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/offersfaresdeeplinkitco-get-openapi.md
-- name: LH Partner
-  x-api-slug: lh-partner
-  description: Book your flights to Germany, Italy, UK or France online at attractive
-    low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
-  humanURL: http://lufthansa.com
-  baseURL: https://api.lufthansa.com//v1
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/openapi.md
-- name: LH Public
-  x-api-slug: lh-public
-  description: Book your flights to Germany, Italy, UK or France online at attractive
-    low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg
-  humanURL: http://lufthansa.com
-  baseURL: https://api.lufthansa.com//v1
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lota.data.api.gallery.streamdata.io

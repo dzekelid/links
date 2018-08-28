@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: IDX Broker
 x-complete: 1
@@ -40,4 +39,157 @@ paths:
       tags:
       - System
       - Links
----
+  /clients/savedlinks:
+    get:
+      summary: Get Saved Link
+      description: Getclient saved links
+      operationId: ClientsSavedlinksGet
+      x-api-path-slug: clientssavedlinks-get
+      parameters:
+      - in: header
+        name: accesskey
+      - in: header
+        name: ancillarykey
+      - in: header
+        name: apiversion
+      - in: header
+        name: Content-Type
+      - in: header
+        name: outputtype
+      responses:
+        200:
+          description: OK
+      tags:
+      - Saved
+      - Link
+    put:
+      summary: Put Saved Link
+      description: Create a new client saved link
+      operationId: ClientsSavedlinksPut
+      x-api-path-slug: clientssavedlinks-put
+      parameters:
+      - in: header
+        name: accesskey
+      - in: header
+        name: ancillarykey
+      - in: header
+        name: apiversion
+      - in: header
+        name: Content-Type
+      - in: formData
+        name: linkName
+      - in: formData
+        name: linkTitle
+      - in: header
+        name: outputtype
+      - in: formData
+        name: pageTitle
+      - in: formData
+        name: queryString[hp]
+      - in: formData
+        name: queryString[idxID]
+      responses:
+        200:
+          description: OK
+      tags:
+      - Saved
+      - Link
+  /clients/properties/{savedLinkId}:
+    get:
+      summary: Get Properties Saved Link
+      description: Get client saved links results
+      operationId: ClientsPropertiesBySavedLinkIdGet
+      x-api-path-slug: clientspropertiessavedlinkid-get
+      parameters:
+      - in: header
+        name: accesskey
+      - in: header
+        name: ancillarykey
+      - in: header
+        name: apiversion
+      - in: header
+        name: Content-Type
+      - in: header
+        name: outputtype
+      - in: path
+        name: savedLinkId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Properties
+      - Saved
+      - Link
+  /clients/savedlinks/{savedLinkId}:
+    post:
+      summary: Post Saved Link Saved Link
+      description: Update a client saved link
+      operationId: ClientsSavedlinksBySavedLinkIdPost
+      x-api-path-slug: clientssavedlinkssavedlinkid-post
+      parameters:
+      - in: header
+        name: accesskey
+      - in: header
+        name: ancillarykey
+      - in: header
+        name: apiversion
+      - in: header
+        name: Content-Type
+      - in: formData
+        name: linkName
+      - in: formData
+        name: linkTitle
+      - in: header
+        name: outputtype
+      - in: formData
+        name: pageTitle
+      - in: formData
+        name: queryString[hp]
+      - in: formData
+        name: queryString[idxID]
+      - in: path
+        name: savedLinkId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Saved
+      - Link
+      - Saved
+      - Link
+    delete:
+      summary: Delete Saved Link Saved Link
+      description: Delete a client saved link
+      operationId: ClientsSavedlinksBySavedLinkIdDelete
+      x-api-path-slug: clientssavedlinkssavedlinkid-delete
+      parameters:
+      - in: header
+        name: accesskey
+      - in: header
+        name: ancillarykey
+      - in: header
+        name: apiversion
+      - in: header
+        name: Content-Type
+      - in: formData
+        name: linkName
+      - in: formData
+        name: linkTitle
+      - in: header
+        name: outputtype
+      - in: formData
+        name: pageTitle
+      - in: formData
+        name: queryString[hp]
+      - in: formData
+        name: queryString[idxID]
+      - in: path
+        name: savedLinkId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Saved
+      - Link
+      - Saved
+      - Link

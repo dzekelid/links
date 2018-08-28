@@ -12,27 +12,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/historio-us/apis.md
 specificationVersion: "0.14"
-apis:
-- name: historio.us
-  x-api-slug: historio-us
-  description: Finally, bookmarking you can love--historious saves you time by helping
-    you find webpages you saw before. Bookmark sites with a single click, then find
-    them again by searching for any word in the content of the page. Bookmark (we
-    call it historify) your favorite sites with just a single click. No categories
-    to select or forms to fill out, and it works on all browsers! Search your historified
-    sites using a simple search box. Dont wade through lists of obscure titles, enter
-    a few keywords you remember from the content of the page and youre off!
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/historius.jpg
-  humanURL: http://historio.us/
-  baseURL: https:///
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/historio-us/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://historio.us/api/

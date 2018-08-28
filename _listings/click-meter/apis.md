@@ -13,28 +13,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/click-meter/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Click Meter
-  x-api-slug: click-meter
-  description: ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing
-    agency. The ClickMeter System was initially a web tool created to address the
-    needs of our agency to precisely count and track the web-marketing actions we
-    performed for our customers.The system evolved rapidly, and emerged as one of
-    the most widely used software solutions in our agency to collect, analyze, and
-    share data for and with our customers. After few years after the development of
-    the first ClickMeter system, we decided to go live with a service that can be
-    useful to everyone involved in web-marketing activities.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
-  humanURL: http://clickmeter.com
-  baseURL: https://apiv2.clickmeter.com:80//
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/click-meter/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://clearbit.api.gallery.streamdata.io

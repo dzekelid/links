@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/933-team-s
 x-kinRank: "7"
 x-alexaRank: "77794"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/team-skimlinks/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Team Skimlinks
-  x-api-slug: team-skimlinks
-  description: Skimlinks helps publishers monetize editorial content through automated
-    affiliate links for products. Sign up today and connect to 24,000 merchants!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/933-team-skimlinks.jpg
-  humanURL: http://skimlinks.com/skimlinks
-  baseURL: https:///
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/team-skimlinks/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://skimlinks.com/skimlinks

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "1"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/firebase/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Firebase
-  x-api-slug: firebase
-  description: Firebase is a mobile platform that gives developers the tools and infrastructure
-    to build better apps and grow successful businesses.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}//
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/firebase/openapi.md
+apis: []
 x-common:
 - type: x-google-firebase
   url: Hacker News Search

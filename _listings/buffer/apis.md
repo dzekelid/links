@@ -7,14 +7,15 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer
 x-kinRank: "7"
 x-alexaRank: "2789"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/buffer/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Buffer
-  x-api-slug: buffer
-  description: social-media-management-for-marketers-and-agencies
+- name: Bufferapp - Get Links Shares Mediatypeextension
+  x-api-slug: linkssharesmediatypeextension-get
+  description: Returns an object with a the numbers of shares a link has had using
+    Buffer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg
   humanURL: http://bufferapp.com
   baseURL: https://api.bufferapp.com//1/
@@ -25,17 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/buffer/linkssharesmediatypeextension-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/buffer/linkssharesmediatypeextension-get-openapi.md
-- name: Buffer
-  x-api-slug: buffer
-  description: Buffer is an intuitive social media management platform trusted by
-    brands, businesses, agencies, and individuals to help drive social media results.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg
-  humanURL: http://bufferapp.com
-  baseURL: https://api.bufferapp.com//1/
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/buffer/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://browshot.api.gallery.streamdata.io

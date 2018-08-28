@@ -7,134 +7,143 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Box
-  x-api-slug: box
-  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+- name: Box - Create Web Link
+  x-api-slug: web-links-post
+  description: Creates a web link object within a given folder.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, StreamRank
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-links-post-openapi.md
-- name: Box
-  x-api-slug: box
-  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+- name: Box - Get Web Link
+  x-api-slug: web-linksweb-link-id-get
+  description: Use to get information about the web link.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, StreamRank
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-links-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-openapi.md
-- name: Box
-  x-api-slug: box
-  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+- name: Box - Update Web Link
+  x-api-slug: web-linksweb-link-id-put
+  description: Updates information for a web link.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, StreamRank
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-links-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-put-openapi.md
-- name: Box
-  x-api-slug: box
-  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+- name: Box - Delete Web Link
+  x-api-slug: web-linksweb-link-id-delete
+  description: Deletes a web link and moves it to the trash
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, StreamRank
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-links-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-delete-openapi.md
-- name: Box
-  x-api-slug: box
-  description: Box.net provides a sophisticated API for their online document sharing
-    and collaboration web application.
+- name: Box - Get Web Link
+  x-api-slug: web-linksweb-link-id-get
+  description: Use to get information about the web link.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Links
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/openapi.md
-- name: Box Create Task (stream)
-  x-api-slug: box-create-task-stream
-  description: Box is changing how you manage content across your business from simple
-    file sharing to building custom apps.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-openapi.md
+- name: Box - Update Web Link
+  x-api-slug: web-linksweb-link-id-put
+  description: Updates information for a web link.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https:///
-  tags: Links
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/openapi.md
-- name: Box Get File's Collaborations (stream)
-  x-api-slug: box-get-files-collaborations-stream
-  description: Box is changing how you manage content across your business from simple
-    file sharing to building custom apps.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-put-openapi.md
+- name: Box - Delete Web Link
+  x-api-slug: web-linksweb-link-id-delete
+  description: Deletes a web link and moves it to the trash
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https:///
-  tags: Links
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/openapi.md
-- name: Box Pending Collaborations (stream)
-  x-api-slug: box-pending-collaborations-stream
-  description: Box is changing how you manage content across your business from simple
-    file sharing to building custom apps.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-delete-openapi.md
+- name: Box - Delete Web Link
+  x-api-slug: web-linksweb-link-id-delete
+  description: Deletes a web link and moves it to the trash
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https:///
-  tags: Links
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/openapi.md
-- name: Box User Events, Enterprise Events (stream)
-  x-api-slug: box-user-events-enterprise-events-stream
-  description: Box is changing how you manage content across your business from simple
-    file sharing to building custom apps.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-delete-openapi.md
+- name: Box - Update Web Link
+  x-api-slug: web-linksweb-link-id-put
+  description: Updates information for a web link.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https:///
-  tags: Links
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-put-openapi.md
+- name: Box - Get Web Link
+  x-api-slug: web-linksweb-link-id-get
+  description: Use to get information about the web link.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/web-linksweb-link-id-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://botify.api.gallery.streamdata.io

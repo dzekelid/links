@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-site-verification/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Site Verification API
-  x-api-slug: google-site-verification-api
-  description: The Google Site Verification API lets you develop applications or services
-    that automate the process of verifying that the authenticated user owns a domain
-    or website. This is important, since some Google services can only be used by
-    site owners.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-site-verification-500x362.png
-  humanURL: https://developers.google.com/site-verification/
-  baseURL: ://www.googleapis.com//siteVerification/v1
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-site-verification/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://google.sheets.api.gallery.streamdata.io

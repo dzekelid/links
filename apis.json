@@ -1,201 +1,1078 @@
 {
-	"name": "Coord",
-	"x-slug": "coord",
-	"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-	"x-kinRank": "7",
-	"x-alexaRank": "1035226",
-	"tags": "Links",
-	"created": "2018-08-23",
-	"modified": "2018-08-23",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/apis.md",
+	"name": "Streadata.io API Gallery - Links",
+	"description": "This is a repository of links APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/links.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://links.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Coord Bike Share API",
-			"x-api-slug": "coord-bike-share-api",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/bike",
+			"name": "Firebase",
+			"x-api-slug": "firebase",
+			"description": "Firebase is a mobile platform that gives developers the tools and infrastructure to build better apps and grow successful businesses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png",
+			"humanURL": "https://Firebase.google.com",
+			"baseURL": "https://{project_id].firebaseio.co}//",
 			"tags": "Links",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/firebase/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Coord Curb Search API",
-			"x-api-slug": "coord-curb-search-api",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/search\/curbs",
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
 			"tags": "Links",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Coord Multimodal Routing API",
-			"x-api-slug": "coord-multimodal-routing-api",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/routing",
+			"name": "Hootsuite",
+			"x-api-slug": "hootsuite",
+			"description": "Enhance your social media management with Hootsuite, the leading social media dashboard. Manage multiple networks and profiles and measure your campaign results.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/160-hootsuite.jpg",
+			"humanURL": "",
+			"baseURL": "https:///",
 			"tags": "Links",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/hootsuite/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Coord Parking Access API",
-			"x-api-slug": "coord-parking-access-api",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/access\/parking",
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
 			"tags": "Links",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Coord Parking Search API",
-			"x-api-slug": "coord-parking-search-api",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/search\/parking",
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
 			"tags": "Links",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/facebook/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Coord Tolls API",
-			"x-api-slug": "coord-tolls-api",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/search\/tolling",
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
 			"tags": "Links",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/foursquare/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Coord Users API",
-			"x-api-slug": "coord-users-api",
-			"description": "the-users-api-allows-you-to-manage-user-data-on-the-coord-platform--sending-user-data-to-coordallows-you-to-perform-transactions-with-mobility-systems-like-renting-a-bike-parking-ina-parking-lot-or-booking-a-ridehail-trip-on-behalf-of-that-user-using-the-coord-platform-the-requirements-for-performing-a-transaction-for-a-given-user-vary-depending-on-the-systemyoure-connecting-with--some-systems-require-particular-data-about-a-user-in-order-for-thetransaction-to-take-place-and-some-systems-require-you-to-link-a-users-account--alltransactions-require-you-to-authenticate-the-user-using-a-jwt-every-coord-api-that-supports-transactions-has-an-endpoint-for-getting-information-aboutthat-apis-systems-along-with-what-you-need-to-provide-for-a-user-in-order-to-perform-atransaction-for-them--the-users-api-provides-tools-that-help-you-enable-users-to-performtransactions-as-well-as-tools-for-learning-about-the-transactions-that-a-user-can-alreadyperform-read-on-for-more-information-about-authenticating-users-linking-accounts-and-managing-userdata--authenticating-users-with-jwtsall-coord-api-endpoints-that-either-manipulate-data-or-perform-a-transaction-on-behalf-of-alogged-in-user-require-http-calls-to-include-an-authorization-bearer-jwt-token-so-thatthe-current-user-can-be-identified--all-endpoints-in-the-users-api-fall-into-this-categoryexcept-for-the-test-jwt-creation-endpoint-which-is-designed-to-allow-you-to-create-test-tokensfor-use-in-such-requests-for-information-on-how-to-create-nontest-user-authorization-tokensplease-contact-a-hrefmailtosalescoord-co-target-blanksalescoord-coaas-this-is-available-only-for-transaction-enabled-partners-see-post-v1userstestinguser-and-jwtreference0testjwtcreation-for-information-onhow-to-create-jwts-for-testing--linking-accountsmany-systems-require-you-to-link-a-user-in-order-to-perform-a-transaction--you-can-do-this-byredirecting-the-users-browser-or-webview-to-theget-v1userslink-accountreference0linkauseraccounttoenabletransactions-endpoint-this-will-allow-the-user-to-link-to-an-existing-account-with-that-system-if-they-have-one-orwill-create-a-new-one-for-them--if-you-call-this-endpoint-with-a-test-jwt-we-will-simulateaccount-linking-by-redirecting-the-user-to-a-demo-permission-page-you-can-also-simulate-linking-or-unlinking-test-users-accounts-serverside-by-calling-thepost-v1userstestingusercurrenttransactable-systemsreference0simulateaccountlinkingfortestingendpoint-remember-that-not-all-systems-are-transactable-and-not-all-transactable-systems-requireaccount-linking--getting-and-setting-user-infowe-automatically-ingest-user-information-like-email-addresses-and-names-from-the-jwtauthorization-token-you-send-us--information-about-a-users-vehicle-like-their-license-plateneeds-to-be-set-through-our-api--we-require-this-in-order-for-the-user-to-transact-with-certainparking-operators-you-can-call-get-v1usersusercurrentreference0getuserinfo-to-get-all-theinformation-we-have-about-a-user-including-the-fields-we-deduce-from-their-jwt-and-those-thatyou-have-already-set-through-our-api-you-can-call-v1usersusercurrentupdate-vehiclereference0updateuservehicle-toupdate-the-vehicle-thats-associated-with-a-users-account-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/users",
-			"tags": "Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/testingusercurrenttransactable-systems-post-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Coord Users API",
-			"x-api-slug": "coord-users-api",
-			"description": "the-users-api-allows-you-to-manage-user-data-on-the-coord-platform--sending-user-data-to-coordallows-you-to-perform-transactions-with-mobility-systems-like-renting-a-bike-parking-ina-parking-lot-or-booking-a-ridehail-trip-on-behalf-of-that-user-using-the-coord-platform-the-requirements-for-performing-a-transaction-for-a-given-user-vary-depending-on-the-systemyoure-connecting-with--some-systems-require-particular-data-about-a-user-in-order-for-thetransaction-to-take-place-and-some-systems-require-you-to-link-a-users-account--alltransactions-require-you-to-authenticate-the-user-using-a-jwt-every-coord-api-that-supports-transactions-has-an-endpoint-for-getting-information-aboutthat-apis-systems-along-with-what-you-need-to-provide-for-a-user-in-order-to-perform-atransaction-for-them--the-users-api-provides-tools-that-help-you-enable-users-to-performtransactions-as-well-as-tools-for-learning-about-the-transactions-that-a-user-can-alreadyperform-read-on-for-more-information-about-authenticating-users-linking-accounts-and-managing-userdata--authenticating-users-with-jwtsall-coord-api-endpoints-that-either-manipulate-data-or-perform-a-transaction-on-behalf-of-alogged-in-user-require-http-calls-to-include-an-authorization-bearer-jwt-token-so-thatthe-current-user-can-be-identified--all-endpoints-in-the-users-api-fall-into-this-categoryexcept-for-the-test-jwt-creation-endpoint-which-is-designed-to-allow-you-to-create-test-tokensfor-use-in-such-requests-for-information-on-how-to-create-nontest-user-authorization-tokensplease-contact-a-hrefmailtosalescoord-co-target-blanksalescoord-coaas-this-is-available-only-for-transaction-enabled-partners-see-post-v1userstestinguser-and-jwtreference0testjwtcreation-for-information-onhow-to-create-jwts-for-testing--linking-accountsmany-systems-require-you-to-link-a-user-in-order-to-perform-a-transaction--you-can-do-this-byredirecting-the-users-browser-or-webview-to-theget-v1userslink-accountreference0linkauseraccounttoenabletransactions-endpoint-this-will-allow-the-user-to-link-to-an-existing-account-with-that-system-if-they-have-one-orwill-create-a-new-one-for-them--if-you-call-this-endpoint-with-a-test-jwt-we-will-simulateaccount-linking-by-redirecting-the-user-to-a-demo-permission-page-you-can-also-simulate-linking-or-unlinking-test-users-accounts-serverside-by-calling-thepost-v1userstestingusercurrenttransactable-systemsreference0simulateaccountlinkingfortestingendpoint-remember-that-not-all-systems-are-transactable-and-not-all-transactable-systems-requireaccount-linking--getting-and-setting-user-infowe-automatically-ingest-user-information-like-email-addresses-and-names-from-the-jwtauthorization-token-you-send-us--information-about-a-users-vehicle-like-their-license-plateneeds-to-be-set-through-our-api--we-require-this-in-order-for-the-user-to-transact-with-certainparking-operators-you-can-call-get-v1usersusercurrentreference0getuserinfo-to-get-all-theinformation-we-have-about-a-user-including-the-fields-we-deduce-from-their-jwt-and-those-thatyou-have-already-set-through-our-api-you-can-call-v1usersusercurrentupdate-vehiclereference0updateuservehicle-toupdate-the-vehicle-thats-associated-with-a-users-account-",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/users",
-			"tags": "Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/testingusercurrenttransactable-systems-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/testingusercurrenttransactable-systems-post-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Coord Users API",
-			"x-api-slug": "coord-users-api",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/coord-logo.png",
-			"humanURL": "https:\/\/coord.co",
-			"baseURL": "https:\/\/api.coord.co\/\/v1\/users",
+			"name": "Pinboard",
+			"x-api-slug": "pinboard",
+			"description": "Pinboard is a bookmarking website for introverted people in a hurry. The focus of the site is less on socializing, and more on speed and utility. Pinboard tries to offer useful features without getting in your way. My highest priority is keeping your data safe over the long term.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg",
+			"humanURL": "http://pinboard.in",
+			"baseURL": "https://api.pinboard.in//v1",
 			"tags": "Links",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/links\/master\/_listings\/coord\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/pinboard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Readability",
+			"x-api-slug": "readability",
+			"description": "Readability is a free/pay reading platform that delivers a great reading experience and provides a model where your reading activity can directly compensate publishers and writers. Readability started off as a simple, Javascript-based reading tool that turned any web page into a customizable reading view. It was released by Arc90 (as an Arc90 Lab experiment), a New York City based design and technology shop, back in early 2009.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/readability.jpg",
+			"humanURL": "http://www.readability.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/readability/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ShareThis",
+			"x-api-slug": "sharethis",
+			"description": "Customize, download and install our easy-to-use share buttons and other publishing tools for your website or blog. Grow your audience. Win the internet!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/476-sharethis.jpg",
+			"humanURL": "http://sharethis.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sharethis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vzaar",
+			"x-api-slug": "vzaar",
+			"description": "vzaar is an online video hosting service, which launched in 2007. The site supports video streaming, embedding, sharing, and video storage. Originally targeted at eBay sellers, the service expanded in 2008 and now provides online video services designed for business and other commercial operations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png",
+			"humanURL": "http://vzaar.com/",
+			"baseURL": "https://vzaar.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/vzaar/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dyn",
+			"x-api-slug": "dyn",
+			"description": "Dyn is home to the worlds most trusted DNS product suite and the worlds most reputable Email Deliverability Service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg",
+			"humanURL": "http://dynect.net",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/dyn/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "historio.us",
+			"x-api-slug": "historio-us",
+			"description": "Finally, bookmarking you can love--historious saves you time by helping you find webpages you saw before. Bookmark sites with a single click, then find them again by searching for any word in the content of the page. Bookmark (we call it historify) your favorite sites with just a single click. No categories to select or forms to fill out, and it works on all browsers! Search your historified sites using a simple search box. Dont wade through lists of obscure titles, enter a few keywords you remember from the content of the page and youre off!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/historius.jpg",
+			"humanURL": "http://historio.us/",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/historio-us/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Team Skimlinks",
+			"x-api-slug": "team-skimlinks",
+			"description": "Skimlinks helps publishers monetize editorial content through automated affiliate links for products. Sign up today and connect to 24,000 merchants!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/933-team-skimlinks.jpg",
+			"humanURL": "http://skimlinks.com/skimlinks",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/team-skimlinks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Buffer",
+			"x-api-slug": "buffer",
+			"description": "Buffer is an intuitive social media management platform trusted by brands, businesses, agencies, and individuals to help drive social media results.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer.jpg",
+			"humanURL": "http://bufferapp.com",
+			"baseURL": "https://api.bufferapp.com//1/",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/buffer/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitly",
+			"x-api-slug": "bitly",
+			"description": "Get the most out of your social and online marketing efforts. Own, understand and activate your best audience through the power of the link with Bitly Enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg",
+			"humanURL": "http://bitly.com",
+			"baseURL": "https://api-ssl.bitly.com//v3",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/bitly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instapaper",
+			"x-api-slug": "instapaper",
+			"description": "A simple tool for saving web pages to read later on your iPhone, iPad, Android, computer, or Kindle.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1698-instapaper.jpg",
+			"humanURL": "http://www.instapaper.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/instapaper/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AddThis",
+			"x-api-slug": "addthis",
+			"description": "AddThis website tools include share buttons, targeting tools and content recommendations help you get more likes, shares and followers and keep them coming back.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1814-addthis.jpg",
+			"humanURL": "http://www.addthis.com/",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/addthis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Okta",
+			"x-api-slug": "okta",
+			"description": "Provide secure identity management and single sign-on to any application, whether in the cloud, on-premises or on a mobile device for your employees, partners and customers with Okta.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg",
+			"humanURL": "https://www.okta.com",
+			"baseURL": "https://example.com//api/v1",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/okta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Link Creation Studio",
+			"x-api-slug": "link-creation-studio",
+			"description": "Using Link Technology integrated into the print production flow, unique IDs are applied to the product during the printing process. These unique marks provide valuable data that can be used in many ways, including launching experiences catered to specific consumers when scanned with our mobile app.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/link-creation-studio.png",
+			"humanURL": "https://www.linkcreationstudio.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/link-creation-studio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IDX Broker",
+			"x-api-slug": "idx-broker",
+			"description": "Based in Eugene, OR, IDX, LLC is nationally known as a leading provider of real estate search applications. IDX, LLC actively manages more than $2 trillion worth of active listing data from more than 600 individual Multiple Listings Services (MLS). IDX, LLC provides integrated IDX software, customizable listing search utilities and lead management tools for real estate based websites (IDX Broker).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png",
+			"humanURL": "http://www.idxbroker.com",
+			"baseURL": "https://example.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/idx-broker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MetaCert",
+			"x-api-slug": "metacert",
+			"description": "Data loss detection and prevention for companies that use Team Collaboration services. Protection against malicious and unwanted URLs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18922-metacert.jpg",
+			"humanURL": "https://metacert.com/",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/metacert/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"x-api-slug": "bitbucket",
+			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
+			"humanURL": "http://bitbucket.org",
+			"baseURL": "https://api.bitbucket.org//2.0",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/bitbucket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Safe Browsing",
+			"x-api-slug": "google-safe-browsing",
+			"description": "The Safe Browsing APIs (v4) let your client applications check URLs against Googles constantly updated lists of unsafe web resources. Examples of unsafe web resources are social engineering sites (phishing and deceptive sites) and sites that host malware or unwanted software. Any URL found on a Safe Browsing list is considered unsafe.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SafeBrowsing_Icon.png",
+			"humanURL": "https://developers.google.com/safe-browsing/",
+			"baseURL": "://safebrowsing.googleapis.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-safe-browsing/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Search Console",
+			"x-api-slug": "google-search-console",
+			"description": "Search Console is a free service that enables you to monitor your sites performance in Google Search, to ensure that Google can crawl your site or app correctly, and to test the validity and performance of a given page. Search Console provides programmatic access to the service through the APIs documented here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif",
+			"humanURL": "https://developers.google.com/webmaster-tools/",
+			"baseURL": "://searchconsole.googleapis.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-search-console/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Site Verification",
+			"x-api-slug": "google-site-verification",
+			"description": "The Google Site Verification API lets you develop applications or services that automate the process of verifying that the authenticated user owns a domain or website. This is important, since some Google services can only be used by site owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-site-verification-500x362.png",
+			"humanURL": "https://developers.google.com/site-verification/",
+			"baseURL": "://www.googleapis.com//siteVerification/v1",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-site-verification/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google URL Shortener",
+			"x-api-slug": "google-url-shortener",
+			"description": "The Google URL Shortener at goo.gl is a service that takes long URLs and squeezes them into fewer characters to make a link that is easier to share, tweet, or email to friends. Users can create these short links through the web interface at goo.gl, or they can programatically create them through the URL Shortener API. With the URL Shortener API you can write applications that use simple HTTP methods to create, inspect, and manage goo.gl short links from desktop, mobile, or web.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-shortener.png",
+			"humanURL": "https://goo.gl/",
+			"baseURL": "://www.googleapis.com//urlshortener/v1",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-url-shortener/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Resource Manager",
+			"x-api-slug": "azure-resource-manager",
+			"description": "Azure Resource Manager enables you to deploy and manage the infrastructure for your Azure solutions. You organize related resources in resource groups, and deploy your resources with JSON templates. For an introduction to deploying and managing resources with Resource Manager, see Azure Resource Manager overview.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/resources/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "link.fish",
+			"x-api-slug": "link-fish",
+			"description": "Automatically get the information of the websites you are interested in and work with it together with others in real-time. Depending on the page you bookmark link.fish automatically extracts the data you actually care about. No matter if bedrooms for apartments, rating of movies or the cook time of your favorite recipe. Invite other people to your collection to work with them or make it public for everbody to see. All changes made will immediately be visible by everyone.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/link-fish-logo.png",
+			"humanURL": "http://link.fish",
+			"baseURL": "https://api.link.fish//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/link-fish/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netatmo",
+			"x-api-slug": "netatmo",
+			"description": "We develop groundbreaking, intuitive and beautifully-designed connected consumer electronics. Truly smart, our innovative products provide a seamless experience that helps users create a safer, healthier and more comfortable home. We carefully design the mechanics, electronics and embedded software of all our products to the highest standards. Our mobile and web applications are designed to be simple to operate, yet deliver a rich user experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png",
+			"humanURL": "http://www.netatmo.com",
+			"baseURL": "https://api.netatmo.net//api",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/netatmo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Science Framework",
+			"x-api-slug": "open-science-framework",
+			"description": "OSF provides free and open source project management support for researchers across the entire research lifecycle. As a collaboration tool, OSF helps researchers work on projects privately with a limited number of collaborators and make parts of their projects public, or make all the project publicly accessible for broader dissemination. As a workflow system, OSF enables connections to the many services researchers already use to streamline their process and increase efficiency. As a flexible repository, it can store and archive research data, protocols, and materials.",
+			"image": "",
+			"humanURL": "https://cos.io",
+			"baseURL": "https://test-api.osf.io//v2",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rite Kit",
+			"x-api-slug": "rite-kit",
+			"description": "",
+			"image": "",
+			"humanURL": "http://ritekit.com",
+			"baseURL": "https://api.ritekit.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/rite-kit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Botify",
+			"x-api-slug": "botify",
+			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg",
+			"humanURL": "http://www.botify.com",
+			"baseURL": "https://api.botify.com//v1",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Click Meter",
+			"x-api-slug": "click-meter",
+			"description": "ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing agency. The ClickMeter System was initially a web tool created to address the needs of our agency to precisely count and track the web-marketing actions we performed for our customers.The system evolved rapidly, and emerged as one of the most widely used software solutions in our agency to collect, analyze, and share data for and with our customers. After few years after the development of the first ClickMeter system, we decided to go live with a service that can be useful to everyone involved in web-marketing activities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png",
+			"humanURL": "http://clickmeter.com",
+			"baseURL": "https://apiv2.clickmeter.com:80//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/click-meter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Linkfluence",
+			"x-api-slug": "linkfluence",
+			"description": "We are proud to provide innovative social data intelligence solutions that position brands and agencies ahead of the market. Every day we deliver actionable insights by capturing, processing, enriching and transforming social data from billions of online conversations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/linkfluence_black_1000.png",
+			"humanURL": "https://linkfluence.com",
+			"baseURL": "https:///",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/linkfluence/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hacker News",
+			"x-api-slug": "hacker-news",
+			"description": "Hacker News is a social news website focusing on computer science and entrepreneurship. It is run by Paul Grahams investment fund and startup incubator, Y Combinator.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hn-246x0w.jpg",
+			"humanURL": "https://news.ycombinator.com/",
+			"baseURL": "https://hacker-news.firebaseio.com//v0",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/hacker-news/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Starred",
+			"x-api-slug": "starred",
+			"description": "Better feedback for everyone, on a human scale. At Starred we like to work smart: working smarter to build great software, and working with smart companies who listen. As the feedback solution which puts the respondent first, we&rsquo;re empowering conversations between companies and their customers and employees. What&rsquo;s more, we equip them with the actionable insights they need to make better decisions and boost loyalty. With leading lights like Deliveroo, Heineken and Spotify already working with us to bring feedback to life, the road ahead for better feedback is looking good.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/starred-logo.png",
+			"humanURL": "https://www.starred.com",
+			"baseURL": "https://example.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/starred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coord",
+			"x-api-slug": "coord",
+			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png",
+			"humanURL": "https://coord.co",
+			"baseURL": "https://api.coord.co//v1/users",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/coord/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Links",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/docsmore/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-blog",
-			"url": "https:\/\/medium.com\/coord"
-		},
-		{
-			"type": "x-blog-rss",
-			"url": "https:\/\/medium.com\/feed\/coord"
-		},
-		{
-			"type": "x-openapi",
-			"url": "https:\/\/jsapi.apiary.io\/apis\/coordprodsearchtolls.source"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/convertapi.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/coord.stack.network"
-		},
-		{
-			"type": "x-developer",
-			"url": "https:\/\/coord.co\/docs\/"
-		},
-		{
-			"type": "x-pricing",
-			"url": "https:\/\/coord.co\/#pricing"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/coordcity"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/coord.co"
-		}
-	],
+	"tags": "Links",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "Firebase",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/firebase/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Hootsuite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/hootsuite/apis.yaml"
+		},
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "Pinboard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/pinboard/apis.yaml"
+		},
+		{
+			"name": "Readability",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/readability/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "ShareThis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sharethis/apis.yaml"
+		},
+		{
+			"name": "Vzaar",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/vzaar/apis.yaml"
+		},
+		{
+			"name": "Dyn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/dyn/apis.yaml"
+		},
+		{
+			"name": "historio.us",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/historio-us/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Team Skimlinks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/team-skimlinks/apis.yaml"
+		},
+		{
+			"name": "Buffer",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/buffer/apis.yaml"
+		},
+		{
+			"name": "Bitly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/bitly/apis.yaml"
+		},
+		{
+			"name": "Instapaper",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/instapaper/apis.yaml"
+		},
+		{
+			"name": "AddThis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/addthis/apis.yaml"
+		},
+		{
+			"name": "Okta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/okta/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Link Creation Studio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/link-creation-studio/apis.yaml"
+		},
+		{
+			"name": "IDX Broker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/idx-broker/apis.yaml"
+		},
+		{
+			"name": "MetaCert",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/metacert/apis.yaml"
+		},
+		{
+			"name": "Bitbucket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/bitbucket/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Safe Browsing",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-safe-browsing/apis.yaml"
+		},
+		{
+			"name": "Google Search Console",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-search-console/apis.yaml"
+		},
+		{
+			"name": "Google Site Verification",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-site-verification/apis.yaml"
+		},
+		{
+			"name": "Google URL Shortener",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/google-url-shortener/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Azure Resource Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/azure-resource-manager/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "link.fish",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/link-fish/apis.yaml"
+		},
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Netatmo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/netatmo/apis.yaml"
+		},
+		{
+			"name": "Open Science Framework",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/open-science-framework/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Rite Kit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/rite-kit/apis.yaml"
+		},
+		{
+			"name": "Botify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/botify/apis.yaml"
+		},
+		{
+			"name": "Click Meter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/click-meter/apis.yaml"
+		},
+		{
+			"name": "Linkfluence",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/linkfluence/apis.yaml"
+		},
+		{
+			"name": "Hacker News",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/hacker-news/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "Starred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/starred/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Coord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/coord/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/logicbroker/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/docsmore/apis.yaml"
 		}
 	]
 }

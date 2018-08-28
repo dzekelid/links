@@ -54,6 +54,47 @@ paths:
       - Links
       - Web
       - Link
+    put:
+      summary: Update Web Link
+      description: Updates information for a web link.
+      operationId: updateWebLink
+      x-api-path-slug: web-linksweb-link-id-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: path
+        name: WEB_LINK_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Web
+      - Links
+      - Web
+      - Link
+    delete:
+      summary: Delete Web Link
+      description: Deletes a web link and moves it to the trash
+      operationId: deleteWebLink
+      x-api-path-slug: web-linksweb-link-id-delete
+      parameters:
+      - in: path
+        name: WEB_LINK_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Web
+      - Links
+      - Web
+      - Link
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

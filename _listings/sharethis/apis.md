@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/476-sharet
 x-kinRank: "7"
 x-alexaRank: "11569"
 tags: Links
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sharethis/apis.md
 specificationVersion: "0.14"
-apis:
-- name: ShareThis
-  x-api-slug: sharethis
-  description: Customize, download and install our easy-to-use share buttons and other
-    publishing tools for your website or blog. Grow your audience. Win the internet!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/476-sharethis.jpg
-  humanURL: http://sharethis.com
-  baseURL: https:///
-  tags: Links
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/links/master/_listings/sharethis/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://rest.sharethis.com
